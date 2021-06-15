@@ -10,4 +10,4 @@ app.use(cors())
 app.use(morgan('dev'))
 app.use(public)
 
-app.listen(port, () => { `🚀Listening on port ${port}...` })
+app.listen(port, () => { console.log(`🚀Listening on port ${port}...`) })
