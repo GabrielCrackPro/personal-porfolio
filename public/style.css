@@ -1,3 +1,16 @@
+*::selection {
+  background: #212529;
+  color: #fff;
+}
+*::placeholder {
+  color: #212529;
+}
+* {
+  overflow: hidden;
+}
 .white {
   color: #fff;
+}
+.rotated {
+  transform: rotate(45deg);
 }
