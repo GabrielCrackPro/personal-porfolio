@@ -11,7 +11,7 @@
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <title>Porfolio</title>
+    <title>Porfolio | About Me</title>
 </head>
 
 <body>
@@ -31,34 +31,30 @@
                         <a class="nav-link" href="skills.html"><i class="fas fa-code"></i> Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html"><i class="fas fa-user"></i> About Me</a>
+                        <a class="nav-link active" href="about.html"><i class="fas fa-user"></i> About Me</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="mt-2 p-2 bg-light d-flex flex-column position-absolute w-100 h-100">
-        <p>Hi I am Gabriel,<br>I am studying FP GS in Spain<br>I like to do many kinds of web projects</p>
-        <div class="project-request">
-            <form id="contact-form" class="d-flex flex-column">
-                <p class="fw-bold text-decoration-underline text-center">Request Project</p>
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-dark"><i class="fas fa-user white"></i></span>
-                    <input type="text" class="form-control" placeholder="Name">
-                </div>
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-dark"><i class="fas fa-envelope white"></i></span>
-                    <input type="email" class="form-control" placeholder="Email">
-                </div>
-                <div class="input-group mb-3">
-                    <span class="input-group-text bg-dark"><i class="fas fa-comment-dots white"></i></span>
-                    <textarea name="contact-msg" id="contact-msg" class="form-control" cols="30" rows="10"
-                        placeholder="Message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-dark w-100">Send <i
-                        class="fas fa-paper-plane rotated"></i></button>
-            </form>
-        </div>
+    <div class="container">
+        <form id="contact-form" class="d-flex flex-column">
+            <p class="fw-bold text-decoration-underline text-center">Contact</p>
+            <div class="input-group mb-3">
+                <span class="input-group-text bg-dark"><i class="fas fa-user white"></i></span>
+                <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text bg-dark"><i class="fas fa-envelope white"></i></span>
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text bg-dark"><i class="fas fa-comment-dots white"></i></span>
+                <textarea name="contact-msg" id="contact-msg" class="form-control" cols="30" rows="10"
+                    placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Send <i class="fas fa-paper-plane rotated"></i></button>
+        </form>
     </div>
     <footer class="bg-dark white position-absolute bottom-0 w-100 p-2 text-center">
         <div class="footer-links">
