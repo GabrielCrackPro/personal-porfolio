@@ -6,7 +6,7 @@ My personal porfolio
 
 - [x] Add "request project" form
 - [x] Add "all projects" section
-- [x] Add "tecnologies" section
-- [ ] Add "about" section
-- [ ] Add "contact" section
+- [x] Add "skills" section
+- [x] Add "about" section
+- [ ] Debug 🔧
 - [ ] Deploy
