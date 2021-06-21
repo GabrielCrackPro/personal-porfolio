@@ -1,7 +1,8 @@
 # Personal Porfolio
 
-My personal porfolio
 [![Bootstrap Version 5](https://img.shields.io/badge/Bootstrap-5.0-blueviolet?style=flat-square&logo=bootstrap)](https://getbootstrap.com/docs/versions/)
+<br>
+My personal porfolio
 
 ## TODO
 
