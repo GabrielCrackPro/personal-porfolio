@@ -52,3 +52,12 @@
   height: 70px;
   height: 70px;
 }
+.link-dark,
+.link-light {
+  text-decoration: none;
+}
+.link-dark:hover,
+.link-light:hover {
+  text-decoration: underline;
+  transition: all 0.3 ease;
+}
