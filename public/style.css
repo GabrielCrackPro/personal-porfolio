@@ -20,14 +20,16 @@
 .big-home {
   transform: scale(1.5);
 }
-.btn:hover {
+.btn:hover,
+.course img:hover {
   box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.22);
   -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.22);
   -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.22);
-  transition: all 1s ease;
+  transition: all 0.4s ease;
 }
-.btn:not(:hover) {
-  transition: all 1s ease;
+.btn:not(:hover),
+.course img:not(:hover) {
+  transition: all 0.4s ease;
 }
 .nav-link:hover {
   font-weight: bold;
